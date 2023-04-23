@@ -1,4 +1,4 @@
-This is a great example of a compression algorithm. Walk through it with your debugger step by step to understand it better. The trick behind it is to find the frequency of symbols in your data, and to give your data that is more frequent shorter codes and your data that is less frequent longer codes. (Sort of like Scrabble.) This efficiently compresses your data, but doesn't lose any information - hence it's a lossless algorithm. Code co-written with ChatGPT4.
+This is a great example of a compression algorithm. Walk through it with your debugger step by step to understand it better. The trick behind it is to find the frequency of symbols in your data, and to give your data that is more frequent shorter codes and your data that is less frequent longer codes. (Sort of like Scrabble.) This efficiently compresses your data, but doesn't lose any information - hence it's a lossless algorithm.
 
 The algorithm uses a binary tree structure, called a Huffman tree, to represent the symbols and their associated codes. Here's a high-level overview of the algorithm:
 
